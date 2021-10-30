@@ -1,0 +1,72 @@
+.photo-grid {
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+}
+
+.card-1 {
+  grid-row: span 2 / auto;
+  color: black
+}
+.card-2 {
+  grid-column: span 2 / auto;
+  color: black
+}
+.card-3 {
+  grid-row: span 2 / auto;
+  color: black
+}
+.card-4 {
+  color: black
+}
+.card-5 {
+  grid-row: span 2 / auto;
+  filter: brightness(180%)
+
+}
+.card-6 {
+  filter: brightness(150%)
+
+}
+.card-7 {
+  filter: brightness(180%)
+
+}
+.card-8 {
+  grid-row: span 2 / auto;
+  filter: brightness(150%)
+
+}
+.card-9 {
+  grid-column: span 2 / auto;
+  filter: brightness(180%)
+
+}
+.card-10 {
+  grid-row: span 2 / auto;
+  filter: brightness(150%)
+
+}
+.card-11 {
+  grid-row: span 2 / auto;
+  filter: brightness(150%)
+
+}
+.card-12 {
+  filter: brightness(180%)
+
+}
+
+/* Medium screens */
+/* @media screen and (min-width: 600px) {
+  .card-tall {
+    grid-row: span 2 / auto;
+    color: black
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+} */
