@@ -59,14 +59,18 @@
 
 }
 
-/* Medium screens */
-/* @media screen and (min-width: 600px) {
-  .card-tall {
-    grid-row: span 2 / auto;
-    color: black
-  }
 
-  .card-wide {
-    grid-column: span 2 / auto;
+@media screen and (max-width: 767px) {
+  .card {
+    grid-row: span 1 /auto;
+    grid-column: span 1 /auto;
   }
-} */
+}
+
+/* Medium screens */
+@media screen and (max-width: 600px) {
+  .card {
+    grid-row: span 2 /auto;
+    grid-column: span 2 /auto;
+  }
+}
